@@ -6,3 +6,16 @@
 .App h1 {
   color: red;
 }
+.App button {
+  background-color: red;
+  cursor: pointer;
+  box-shadow: 3px 3px black;
+  border: none;
+}
+.App button:hover {
+  box-shadow: 3px 3px orange;
+  background-color: yellow;
+  color: red;
+  font-size: 15px;
+  transition:  1s;
+} 
